@@ -190,7 +190,7 @@ class _StudentViewState extends State<StudentView> {
                   width: double.infinity,
                   child: ElevatedButton(
                     onPressed: () {
-                      Navigator.pushNamed(context, '/sumRoute');
+                      Navigator.pushNamed(context, '/oddeven');
                     },
                     child: const Text('sum'),
                   ),

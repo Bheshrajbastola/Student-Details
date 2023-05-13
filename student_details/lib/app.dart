@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:student_details/view/airthemetic.dart';
 import 'package:student_details/view/display_student_view.dart';
+import 'package:student_details/view/oddeven.dart';
 import 'package:student_details/view/student_view.dart';
 
 class App extends StatelessWidget {
@@ -16,6 +17,7 @@ class App extends StatelessWidget {
         '/displayRoute': (context) => const DisplayStudentView(),
         '/StudentRoute': (context) => const StudentView(),
         '/sumRoute': (context) => const Airthemeticview(),
+        '/oddeven': (context) => const NumberPage(),
       },
     );
   }
